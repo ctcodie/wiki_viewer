@@ -1,0 +1,112 @@
+.wrapper {
+  background-image: url("http://lorempixel.com/1680/1050/city/");
+}
+
+.centrecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  padding-top: 150px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  min-height: 500px;
+}
+
+#articles {
+  background-color: #EDEDED;
+  padding: 20px;
+  margin: 20px;
+}
+
+.btn {
+  border-radius: 15px;
+  background-color: #EDEDED;
+  border: 2px solid #66CC75;
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  color: #565656;
+}
+
+a:hover {
+  color: #66CC80;
+}
+
+input {
+  outline: none;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type=search] {
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+input[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #66CC75;
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+#magnify input[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+#magnify input[type=search]:hover {
+  background-color: #fff;
+}
+
+#magnify input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+
+#magnify input:-moz-placeholder {
+  color: transparent;
+}
+
+#magnify input::-webkit-input-placeholder {
+  color: transparent;
+}

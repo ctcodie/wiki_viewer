@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Free Code Camp Wiki Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="hero-section">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>
+          Wikipedia Viewer
+        </h1>
+        <h3>
+          Free Code Camp Exercise
+        </h3>
+        <p>
+          Click the magnifying glass to search, or click Surprise me for a random article!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 centrecontent">
+        <form id="magnify">
+          <input id="search" placeholder="Search" type="search" />
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a class="btn" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Surprise me!</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="row centrecontent">
+    <div class="col-md-8">
+      <div class="results"></div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
